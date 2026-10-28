@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caiting — Portfolio</title>
+  <meta name="description" content="Portfolio of Caiting: biomedical engineering, software testing, game development and photography.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">Caiting</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#photography">Photography</a>
+      <a href="#contact">Contact</a>
+      <button id="theme" aria-label="Toggle dark mode">◐</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Biomedical engineering · Software testing · Creative</p>
+      <h1>Hi, I'm Caiting.<br><span>I build, test and design things that work.</span></h1>
+      <p class="lead">Student and Watan scholar in Malaysia, exploring where healthcare technology, quality-focused software and game design meet.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">View my work</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="about-grid">
+        <p>I'm studying biomedical engineering alongside software testing, which means I care about both how devices help people and how reliably the software behind them runs. Outside class I work part-time in retail, which taught me how to talk to people and stay calm under pressure.</p>
+        <p>I also make things for fun: small games, photographs and design pieces. I like projects where careful details make a real difference.</p>
+      </div>
+      <ul class="skills">
+        <li>Software testing</li>
+        <li>Test case design</li>
+        <li>Biomedical engineering</li>
+        <li>Game development</li>
+        <li>Photography</li>
+        <li>Visual design</li>
+        <li>Customer service</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="cards" id="project-list"></div>
+    </section>
+
+    <section id="photography" class="section">
+      <h2>Photography</h2>
+      <p class="muted">Add your photos to the <code>images/</code> folder and list them in <code>script.js</code>. Photos are shown in full, never cropped.</p>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Let's talk</h2>
+      <p>Open to internships, collaborations and interesting projects.</p>
+      <a class="btn primary" href="mailto:you@example.com">you@example.com</a>
+      <p class="links">
+        <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://instagram.com/your-username" target="_blank" rel="noopener">Instagram</a>
+      </p>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> Caiting. Built with plain HTML, hosted on Vercel.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
